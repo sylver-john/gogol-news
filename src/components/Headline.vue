@@ -5,7 +5,7 @@
     div(role="list" class="ui divided relaxed list")
       div(role="listitem" class="item" v-for="headline in headlines")
         div(class="content")
-        a(class="header" v-bind:href="headline.url") {{headline.title}}
+        a(class="header" v-bind:href="headline.url" target="_blank" rel="nofollow") {{headline.title}}
 </template>
 
 <script>

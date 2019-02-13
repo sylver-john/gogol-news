@@ -1,5 +1,5 @@
 <template lang="pug">
-  div(class="ui true fixed inverted menu purple")
+  div(class="ui true fixed inverted menu")
     div(class="ui container")
         div(class="item") How many
         div(class="item") From

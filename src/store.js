@@ -17,7 +17,7 @@ export default new Vuex.Store({
   },
   actions: {
     fetchHeadlines: (context) => {
-      axios.get('https://newsapi.org/v2/top-headlines?country=fr&pageSize=5&category=business', {
+      axios.get('https://newsapi.org/v2/top-headlines?country=fr&pageSize=20&category=business', {
 				headers: {
 					Accept: 'application/json',
 					Authorization: 'Bearer ' + '162694f262264b3999626fbda83381db'
