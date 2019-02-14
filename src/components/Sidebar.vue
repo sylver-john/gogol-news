@@ -1,13 +1,21 @@
 <template lang="pug">
-  div(class="ui true fixed inverted menu")
-    div(class="ui container")
-        div(class="item") How many
-        div(class="item") From
-        div(class="item") Kind
+  div(class="ui container")
+    <NumberChoice />
+    <LangChoice />
+    <CategoryChoice />
 </template>
 
 <script>
+import NumberChoice from '@/components/NumberChoice.vue'
+import LangChoice from '@/components/LangChoice.vue'
+import CategoryChoice from '@/components/CategoryChoice.vue'
+
 export default {
-  name: 'Sidebar'
+  name: 'Sidebar',
+  components: {
+    NumberChoice,
+    LangChoice,
+    CategoryChoice
+  }
 }
 </script>

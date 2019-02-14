@@ -17,7 +17,7 @@ export default {
     }
   },
   mounted() {
-    this.$store.dispatch('fetchHeadlines', {}, {})
+    this.$store.dispatch('fetchHeadlines')
   }
 }
 </script>
