@@ -1,9 +1,10 @@
 <template lang='pug'>
   <div class="home">
     div(class="ui true fixed inverted menu")
-      div(class="ui container")
-          div(class="item") How many
-          div(class="item") From
+      div(class="header item") Gogol-News
+      div(class="rigth menu")
+        div(class="item") Refresh
+        div(class="item") Favorites
     div(class="ui two column centered divided grid")
       div(class="row")
         div(class="column")

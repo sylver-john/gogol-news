@@ -15,7 +15,7 @@ const mutations = {
 
 const actions = {
     async fetchHeadlines ({commit}, category) {
-        let countries = ['fr', 'us', 'gb']
+        let countries = ['fr', 'us', 'gb', 'ca']
         let articles = []
         for (let i = 0; i < countries.length; i++) {
             try {
